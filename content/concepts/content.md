@@ -14,7 +14,7 @@ A specific content is identified by a unique id and also by its path in the repo
 
 # How should I imagine a content?
 
-Every content is built up of fields (a user content for example has a *name* field and *password* field among others). Different types of content can be created by defining a different set of fields. The type of the content is called the ```content type``` and defines the set of fields a content possesses and also the behavior of it.
+Every content is built up of fields (a user content for example has a *name* field and *password* field among others). Different types of content can be created by defining a different set of fields. The type of the content is called the ```content type``` [link] and defines the set of fields a content possesses and also the behavior of it.
 
 # How can I store/browse my data?
 

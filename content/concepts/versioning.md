@@ -12,7 +12,7 @@ When a new Content is created in the Content Repository with versioning enabled,
 
 # Does sensenet also version content types or users?
 In sensenet everything is content (documents, tasks, users, project, content types etc.). As content types and users are content too, yes, they can be versioned. It can happen, for example, that you need to modify the fields of a content type, versioning is a good solution to keep track of the previous versions. As described above, you can enable versioning by setting the value of the Versioning Mode fiels.
-# versioning modes
+# Versioning modes
 In sensenet versioning is disabled by default, you can enable it and set the following Versioning Modes for folders, workspaces or on any type of individual content or even for a subtree:
 
 - None: the default setting of the Root folder, no versioning.
@@ -36,5 +36,5 @@ To configure user permissions to work with versioning you can use the following 
 - Open minor: controls whether the user is allowed to open minor versions of the Content and see corresponding Field data.
 - Recall old version: controls whether the user is permitted to restore an old version of the Content.
 - Delete old version: controls whether the user is allowed to delete an old version of the Content
-# usage (advantages)
+# Usage (advantages)
 Versioning is important for documents that undergo a lot of revision and redrafting. It is particularly important for electronic documents because they can easily be changed by a number of different users. These changes may not be immediately apparent. Knowing which version of a document you are looking at is important, for example, if you are trying to find out which version of a policy is currently in force, or which version of a policy was in use at a particular time. Version control is also important if you are working on a collaborative document with a number of contributors and/or with frequent revisions.

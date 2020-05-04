@@ -19,6 +19,14 @@ The editor (or approver) can approve the document as it is, or propose changes. 
 
 When everyone is happy with the result, the document gets approved and published - If the Content is approved, its version number is bumped according to the versioning mode, and gets the A (“approved”) flag.
 
+Content in the repository can have several non-numeric version states:
+
+A (Approved): Only a major version can be in approved state: 1.0A or 2.0A. The last approved version of the content is that users with low level permission can see.
+L (Locked): When a content is locked, only the user who locked it can modify it.
+D (Draft): A draft version is only visible to users who have permission to see minor versions of a content. Any other user will see the last public version.
+P (Pending): When approval is enabled in a folder or list, then contents cannot be published without approval. After sending a content for approval it remains in pending for approval state, until somebody with sufficient rights approves it.
+R (Rejected): If a content is not correct, the user with approving rights can reject it. This means it is not published and should be refined.
+
 # Automatic notifications on state change
 
 It is possible to enable notifications for every state change of a specific document. When this feature is switched on, the system notifies all subscribed user via email when the content or any of its metadata has been changed. Such changes could be the update, a new [version](/concepts/versioning), approval and many more.
